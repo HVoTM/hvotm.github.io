@@ -1,7 +1,385 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html class="no-js" lang="en">
+    <!--Metadata and basic information-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="mobile-menu-open" class="shadow-large">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <!-- End #mobile-menu-toggle -->
+        <header>
+            <div id="mobile-menu-close">
+                <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <!-- This is where to access quick link to different sections of the html "div"'s'-->
+            <ul id="menu" class="shadow">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#involvement">Involvements</a>
+                </li>
+                <li>
+                    <a href="#hobbies">Hobbies & Miscellaneous</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </header>
+        <!-- End header -->
+    
+        <div id="lead">
+            <div id="lead-content">
+                <h1>Hung (Dylan) Vo</h1> <!-- NOTE: inflate the name into a single line-->
+                <h2>B.S. Computer Engineering | Minor: Computer Science</h2>
+                <a href="libs/Vo_Hung_Resume.pdf" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
+            </div>
+            <!-- End #lead-content -->
+    
+            <div id="lead-overlay"></div>
+    
+            <div id="lead-down">
+                <span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </span>
+            </div>
+            <!-- End #lead-down -->
+        </div>
+        <!-- End #lead -->
+    
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="heading">About Me</h2>
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                            Computer Engineering major at the University of Cincinnati with interests in Autonomous Robotics and the Internet of Things. A hobbyist in Game Development, Physics, Graphics, and AI.                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End #about -->
+    
+        <div id="experience" class="background-alt">
+            <h2 class="heading">Experience</h2>
+            <div id="experience-timeline">
+                <!-- NOTE: add location, geographic?-->
+                <div data-date="October 2024 – December 2024">
+                    <h3>University of Cincinnati</h3>
+                    <h4>Distributed Operating System Teaching Assistant/Grader</h4>
+                    <ul>
+                        <li>
+                            Graded and evaluated assignments from 179 students on conceptual and code implementation of different operating system concepts such as Drinking Philosophers, 
+                        </li>
+                    </ul>
+                </div>
+
+                <div data-date="May 2024 – August 2024">
+                    <h3>Digital Futures</h3>
+                    <h4>Intern - Autonomous Robotics Programming</h4>
+                    <ul>
+                        <li>
+                            Contributed to developing Ohio’s Department of Transportation’s project air-ground coordination with UAVs/drones and UGVs for robotic assistant scale of Cincinnati public constructions and highways
+                        </li>
+                        <li>
+                            Developed line following, road line detection with digital 400 x 600 images smoothed with filters, and control loops like PID controller, Kalman Filter for seamless adaptability with Python, OpenCV, and YOLO
+                        </li>
+                        <li>
+                            Planned creative simulation scenarios in Gazebo, as well as validated remote data distribution services, optimized code for cleanliness and runtime, and researched improvements for controls in more complex tracks 
+                        </li>
+                    </ul>
+                </div>
+    
+                <div data-date="January 2024 – April 2024">
+                    <h3>EMG Education</h3>
+                    <h4>Software Developer Intern</h4>
+                    <ul>
+                        <li>
+                            Automated workflow via Excel VBA and Word’s Mail Merge to add for scheduled tuition payment management for finance and human resources departments, solving delay and repetition in paperwork
+                        </li>
+                        <li>
+                            Enhanced user-end chatbot applications with open-source language models such as Llama-2, Mistral, BERT and tools such as Azure, Poe, LangChain, HuggingFace for an expected server usage of 200 people
+                        </li>
+                        <li>
+                            Managed beta tests on application-level implementation of Retrieval Augmented Generation and aided prompt engineering on external knowledge for efficient contextually personalized features with FastAPI
+                        </li>
+                    </ul>
+                </div>
+                
+                <div data-date="September 2022 – April 2023">
+                    <h3>University of Cincinnati</h3>
+                    <h4>Teaching Assistant for College of Engineering and Applied Science</h4>
+                    <ul>
+                        <li>
+                            Supported 80 students in-class by encouraging questions for any gap and coordinating out-of-class recitations in Physics, graded averagely 150 assignments per week 
+                        </li>
+                    </ul>
+                </div>
+
+                <div data-date="September 2022 – December 2022">
+                    <h3>WestRock Company</h3>
+                    <h4>Information Technology Intern - Master Data Management</h4>
+                    <ul>
+                        <li>
+                            Implemented Agile with CI/CD with information from the past quarter evaluation to build analytical workflow to optimize company’s five-year plan with record tables worth of 2 million rows of data with SQL and DBeaver
+                        </li>
+                        <li>
+                            Derived analytical charts and statistical tables via daily automated data extraction and wrangling workflow using Alteryx and SQL with datalake system using DBeaver for end-of-Sprint meeting
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- End #experience -->
+    
+        <div id="education">
+            <h2 class="heading">Education</h2>
+            <div class="education-block">
+                <h3>University of Cincinnati, Cincinnati, Ohio</h3>
+                <span class="education-date">Aug 2020 - May 2025 (expected)</span>
+                <h4>Bachelor of Science in Computer Engineering</h4>
+                <p>
+                    Learnt and integrated pertinent science and mathematics courses with electrical engineering and computer courses in order to develop engineering capabilities of designing and analyzing all aspects of modern computer systems 
+                </p>
+                <li>
+                    Courses: Electronics, Signals and Systems, Intelligent Data Analysis, Haptics and Collaborative Robots, Advanced Data Structures and Algorithms, Operating Systems and Systems Programming, Embedded Systems, Computer Architecture
+                </li>
+            </div>
+            <!-- End .education-block -->
+    
+            <div class="education-block">
+                <h3>Tran Dai Nghia High School for the Gifted, Ho Chi Minh City, Viet Nam</h3>
+                <span class="education-date">Aug 2017 - May 2020</span>
+                <h4>Student in the Gifted Program for Foreign Language: English, French</h4>
+                <ul>
+                    <li>
+                        Participated in the Regional Scientific Research Competition on the effects of pollution and devised environmental and ecological measures for the local citizens and public waste treatment system
+                    </li>
+                    <li>
+                        Silver medal in the Regional Olympiad Competition of the City 2020
+                    </li>
+                </ul>
+            </div>
+            <!-- End .education-block -->
+        </div>
+        <!-- End #education -->
+    
+        <div id="projects" class="background-alt">
+            <h2 class="heading">Projects</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/project.jpg" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Kaggle's Competition on Predicting Housing Prices</h3>
+                            <ul>
+                                <li>
+                                    Built a data analysis project on predicting house prices based on 79 features of different characteristics with supervised learning models such as Lasso, Ensemble Random Forest, Support Vector Machine
+                                </li>
+                                <li>
+                                    Utilized scikit-learn, SciPy, and seaborn to develop the data analysis pipeline from data cleansing, data preprocessing, to exploratory data analysis, then model training with accuracy of average 75%
+                                </li>
+                                <li>
+                                    Further with feature engineering with of MiniSOM to cluster valuable information for enhanced learning experience
+                                </li>
+                            </ul>
+                            <a href="#">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/project.jpg" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Robotic Arm for Neurorehabilitation</h3>
+                            <ul>
+                                <li>
+                                    Collaborated with Mechanical Engineers to develop a two degree-of-freedom with an approach for series elastic actuation to promote human-friendly interaction in sensorimotor training for physical therapy recovery
+                                </li>
+                                <li>    
+                                    Implemented circuit and design for sensors and a data acquisition board to receive inputs for controls algorithms and handle output positions of the end-effector and managed testing and quality analysis via Simulink and C
+                                </li>
+                            </ul>
+                            <a href="#">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+    
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/project.jpg" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Game Development Library</h3>
+                            <ul>
+                                <li>
+                                    Designed nostalgic many 2D retro games such as Snake Xenzia, Tetris, Pong, and Breakout using Pygame, Tkinter, or with C++ on OpenGL or SDL framework from scratch for conceptual understanding
+                                </li>
+                                <li>
+                                    Leveraged Python and PyTorch to train Deep Q neural network, enabling for a self-learning agent with a current high score of 15 in the first 100 plays, developed roadmap for other games using Gymnasium library
+                                </li>
+                            </ul>>
+                            <a href="#">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+            </div>
+        </div>
+        <!-- End #projects -->
+
+        <div id="skills">
+            <h2 class="heading">Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>MATLAB</li>
+                <li>Git</li>
+                <li>Docker</li>
+                <li>Linux</li>
+                <li>Docker</li>
+                <li>Robotic Operating System (ROS)</li>
+                <li>Raspberry Pi</li>
+                <li>Jetson Nano</li>
+                <li>Simulink</li>
+                <li>FastAPI/Flask</li>
+                <li>scikit-learn</li>
+                <li>numpy</li>
+                <li>pandas</li>
+                <li>TensorFlow</li>
+                <li>Jupyter Notebook</li>
+                <li>markdown</li>
+                <li>LaTeX</li>
+                <li>JIRA</li>
+                <li>Microsoft Azure</li>
+                <li>SFML</li>
+            </ul>
+        </div>
+        <!-- End #skills -->
+
+        
+        <div id="hobbies" class="optional-section background-alt">
+            <h2 class="heading">Hobbies & Miscellaneous</h2>
+
+            <div class="optional-section-block">
+                <h3>Some personal pastime activities you may find interesting</h3>
+                <p>
+                    TO BE ADDED
+                </p>
+                <ul>
+                    <li>
+                        Reading: Haruki Murakami, Fyodor Dostoevsky
+                    </li>
+                    <li>
+                        Physical Activities: Calisthenics, Swimming, Basketball, Lifting, Badminton
+                    </li>
+                    <li>
+                        Travelling, Hiking-Camping, Studying Japanese, Music
+                    </li>
+                </ul>
+            </div>
+            <!-- End .optional-section-block -->
+
+        </div>
+        <!-- End of hobbies-->
+    
+        <div id="contact">
+            <h2>Get in Touch (currently updating...)</h2>
+            <div id="contact-form">
+                <form method="POST" action="https://formspree.io/email@email.com">
+                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+                    <input type="email" name="_replyto" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <!-- End #contact-form -->
+        </div>
+        <!-- End #contact -->
+    
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 copyright">
+                        <p>
+                            Copyright &copy; <span id="current-year">2024</span> HUNG VO
+                        </p>
+                    </div>
+                    <div class="col-sm-2 top">
+                        <span id="to-top">
+                            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="col-sm-5 social">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End footer -->
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/scripts.min.js"></script>
+    </body>
 </html>
