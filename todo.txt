@@ -1,0 +1,69 @@
+--- TODO---
+[] provide further information on the experience
+[] add links to project, add more projects (also do the more project widget function)
+[] adding pictures to the projects
+[] adding links to personal information: linkedin, github
+[] WORK and UPDATE on the get in contact section div 
+[] adding a profile picture to the profile?
+[] adding photos to the hobbies & miscellaneous
+[] LEARN MORE: understand more on the different stylesheet inthe styles.css
+
+===========================================
+The basic format for a `todo.txt` file is simple and minimalistic. Each line represents a single task, and specific conventions are used to add details. Here's the format:
+
+---
+
+### Basic Task Format
+```
+[x] (A) 2024-12-21 Task description +Project @Context
+```
+
+---
+
+### Explanation of the Components:
+1. **`[x]`**: Marks the task as completed.
+   - Example: `[x] Call Alice`
+
+2. **`(A)`**: Priority indicator.
+   - Priorities are single letters `(A)` to `(Z)`, with `(A)` being the highest.
+   - Example: `(B) Submit assignment`
+
+3. **`2024-12-21`**: Date the task was created or due.
+   - Optional but useful for tracking deadlines.
+   - Example: `2024-12-21 Renew car insurance`
+
+4. **`Task description`**: A short description of the task.
+   - Example: `Fix the kitchen sink`
+
+5. **`+Project`**: Project tag, indicating the task belongs to a specific project.
+   - Example: `Write report +Work`
+
+6. **`@Context`**: Context tag, used to specify where or how the task should be done.
+   - Example: `Buy groceries @Errands`
+
+---
+
+### Examples:
+1. A task with priority, project, and context:
+   ```
+   (A) 2024-12-21 Finish the presentation +Work @Office
+   ```
+
+2. A simple completed task:
+   ```
+   [x] 2024-12-20 Watch tutorial video
+   ```
+
+3. Tasks without priority or tags:
+   ```
+   Clean the house
+   ```
+
+---
+
+### Tips for Usage:
+- **Keep it simple**: Use only the fields you need. You can always add more details later.
+- **Sort by priority**: Organize tasks to focus on `(A)` items first.
+- **Sync across devices**: Use tools like `Todo.txt CLI`, mobile apps, or text editors for easy management.
+
+Would you like help setting up your own `todo.txt`?
